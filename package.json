@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@remix-project/remixd": "^0.6.8",
+    "buffer": "^6.0.3",
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "ipfs-http-client": "^59.0.0",
+    "web3": "^1.8.1"
+  }
+}
